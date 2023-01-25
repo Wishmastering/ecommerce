@@ -6,6 +6,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './js/pages/Home';
 import Login from './js/pages/Login';
 import Navbar from './js/components/Navbar';
+import Gallery from './js/pages/Gallery';
+
+
 // import { useState } from 'react';
 
 export default function Layout() {
@@ -18,6 +21,7 @@ export default function Layout() {
         <Routes>
           <Route element={<Home/>} path="/" /> 
           <Route element={<Login />} path="/login"  /> 
+          <Route element={<Gallery />} path="/gallery"  /> 
         </Routes>
       </BrowserRouter>
     </div>
