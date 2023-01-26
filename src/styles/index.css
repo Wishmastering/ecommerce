@@ -4,7 +4,7 @@
   --bg-background: #FFF6BD;
   --bg-button: #CEEDC7;
   --bg-button-hover: #86C8BC;
-  font-size: 3vmin;
+  font-size: 2vmin;
 }
 
 body {
@@ -58,9 +58,28 @@ body {
 }
 
 
-/* Estilos para el home  */
+/* Estilos HOME PAGE  */
 
 .home a{
   text-decoration: none;
   color: inherit
+}
+
+/* Estilos para LOGIN PAGE*/
+.login {
+  /* align-items: center; */
+}
+.login div{
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  align-items: center;
+  margin-bottom: 1px;
+  line-height: 10px;
+}
+
+.login input{
+  margin-left: 0.5vmin;
+  max-height: 3.5vmin;
+  font-size: 1.5vmin;
 }

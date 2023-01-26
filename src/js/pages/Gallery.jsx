@@ -35,7 +35,7 @@ export default function Gallery(){
     }
     
     return<>
-        <h1>{arr[counter]}</h1>
+        <h1>{arr[counter].url}</h1>
         <div>
             <button onClick={()=>next()}> Previous </button>
             <button onClick={()=>next("Next")}> Next </button>

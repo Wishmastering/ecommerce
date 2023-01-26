@@ -7,8 +7,8 @@ export default function Navbar(){
             
                 <h1>  <Link to="/"> Logo </Link>  </h1> 
             <div>
-                <h3>Login</h3>
-                <h3>Signup</h3>
+                <Link to="/login">  <h3>Login</h3>  </Link>
+                <Link to="/signup"> <h3>Signup</h3> </Link>
             </div>
         
     </nav>
