@@ -57,6 +57,16 @@ body {
   color: inherit
 }
 
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: smaller;
+  padding: 2px;
+  max-height: 40px;
+  align-self: center;
+}
+
 
 /* Estilos HOME PAGE  */
 
@@ -66,20 +76,29 @@ body {
 }
 
 /* Estilos para LOGIN PAGE*/
-.login {
-  /* align-items: center; */
-}
-.login div{
+
+.signup div{
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   align-items: center;
   margin-bottom: 1px;
   line-height: 10px;
 }
 
-.login input{
+.signup input{
   margin-left: 0.5vmin;
   max-height: 3.5vmin;
   font-size: 1.5vmin;
+}
+
+/* Dark y Light modes  */
+
+.dark{
+  background-color: black;
+  color: white
+}
+
+.light{
+  background-color: bisque;
 }
