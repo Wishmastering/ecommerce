@@ -148,7 +148,7 @@ function Login(props){
 // =============================
 function Validate(){
     return<>
-        <p>Porfavor Ingresa Un Correo Valido</p>
+        <p>Porfavor Ingresa Un Correo Valido Aca</p>
     </>
 }
 
